@@ -1,4 +1,4 @@
 <div class="image-container">
-  <img [hidden]="true" [src]="img_full" [loaded]="showFullImage()">
+  <img [hidden]="1" [src]="img_full" (load)="showFullImage()">
   <img class={{img_class}} [style.backgroundImage]="'url('+ img_src +')'" width="500px" height="500px" />
 </div>
