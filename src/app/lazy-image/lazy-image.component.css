@@ -1,0 +1,15 @@
+.image-container{
+    text-align: center;
+}
+.image-full{
+    background-size: 100% 100%;
+    animation: blur 5s ease-in-out;
+}
+.image-background{
+    filter: blur(4px);
+    background-size: 100% 100%;
+}
+@-webkit-keyframs blur {
+    0%, 50%  { filter: blur(4px); }
+    100% { filter: blur(0px); zoom: 1; }
+}

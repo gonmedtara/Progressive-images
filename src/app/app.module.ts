@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { LazyImageComponent } from './lazy-image/lazy-image.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LazyImageComponent
   ],
   imports: [
     BrowserModule
